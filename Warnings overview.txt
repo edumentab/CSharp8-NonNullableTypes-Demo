@@ -1,0 +1,94 @@
+//Exceptions
+CS8597	Thrown value may be null.	                                                                                                                              
+
+//Partial
+CS8611	Nullability of reference types in type of parameter 'XXX' doesn't match partial method declaration.	  
+
+//Delegates
+CS8621	Nullability of reference types in return type of 'XXX' doesn't match the target delegate 'YYY'.	                                                          
+CS8622	Nullability of reference types in type of parameter 'XXX' of 'YYY' doesn't match the target delegate 'ZZZ'.	                                              
+
+Inheritance related
+CS8609	Nullability of reference types in return type doesn't match overridden member.	                                                                          
+CS8610	Nullability of reference types in type of parameter 'XXX' doesn't match overridden member.	                                                              
+    
+//Interface    
+CS8613	Nullability of reference types in return type of 'XXXX' doesn't match implicitly implemented member 'YYY'.	                                              
+CS8614	Nullability of reference types in type of parameter 'XX' of 'YYY' doesn't match implicitly implemented member 'ZZZ'.	                                  
+CS8616	Nullability of reference types in return type doesn't match implemented member 'XXX'.	                                                                  
+CS8617	Nullability of reference types in type of parameter 'XXX' doesn't match implemented member 'YYY'.	                                                      
+
+//Field and properties
+CS8618	Non-nullable property 'XXX' is uninitialized.	                                                                                                          
+CS8618	Non-nullable field 'XXX' is uninitialized.	                                                                                                              
+
+//Methods
+CS8603	Possible null reference return.	            
+CS8604	Possible null reference argument for parameter 'XXXX' in 'YYYY'.
+CS8620	Argument of type 'XXX' cannot be used for parameter 'YYY' of type 'ZZZ' in 'AAA' due to differences in the nullability of reference types.	              
+CS8624	Argument of type 'XXX' cannot be used as an output of type 'YYY' for parameter 'ZZZ' in 'AAA' due to differences in the nullability of reference types.	  
+
+//assignments
+CS8600	Converting null literal or possible null value to non-nullable type.	
+CS8601	Possible null reference assignment.
+CS8602	Dereference of a possibly null reference.	
+CS8605	Unboxing a possibly null value.	    
+CS8606	Possible null reference assignment to iteration variable	
+CS8619	Nullability of reference types in value of type 'XXX' doesn't match target type 'YYY'.	                                                                  
+CS8625	Cannot convert null literal to non-nullable reference type.	
+CS8629	Nullable value type may be null.
+
+//Generics
+CS8631: The type '{3}' cannot be used as type parameter '{2}' in the generic type or method '{0}'. Nullability of type argument '{3}' doesn't match constraint type '{1}'.</value>
+CS8634: The type cannot be used as type parameter in the generic type or method. Nullability of type argument doesn't match 'class' constraint.
+    
+//Compilation errors
+CS8623: Explicit application of 'System.Runtime.CompilerServices.NullableAttribute' is not allowed.
+CS8627: A nullable type parameter must be known to be a value type or non-nullable reference type. Consider adding a 'class', 'struct', or type constraint.
+CS8628: Cannot use a nullable reference type in object creation
+CS8630: Invalid '{0}' value: '{1}' for C# {2}. Please use language version '{3}' or greater.
+
+
+
+
+
+################################################33333
+
+Ej fixade
+
+                                                                                  
+CS8608 Nullability of reference types in type doesn't match overridden member.
+
+	WRN_NullabilityMismatchInTypeOnImplicitImplementation = 8612,
+		<value>Nullability of reference types in type of '{0}' doesn't match implicitly implemented member '{1}'.</value>
+
+	WRN_NullabilityMismatchInTypeOnExplicitImplementation = 8615,
+	   <value>Nullability of reference types in type doesn't match implemented member '{0}'.</value>
+
+
+	WRN_AsOperatorMayReturnNull = 8626,
+		<value>The 'as' operator may produce a null value when '{0}' is a non-nullable reference type.</value>
+	
+
+
+
+
+--------------
+WRN_NullabilityMismatchInConstraintsOnImplicitImplementation = 8633,
+		CS8633
+		   <value>Nullability in constraints for type parameter '{0}' of method '{1}' doesn't match the constraints for type parameter '{2}' of interface method '{3}'. Consider using an explicit interface implementation instead.</value>
+  </data>
+  
+
+  
+	                                                                                      
+                                                                                                                      
+                                                                                              
+
+                                            
+
+
+                                                                                              
+	
+
+                                                                                                                      
