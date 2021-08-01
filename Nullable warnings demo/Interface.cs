@@ -24,7 +24,7 @@ namespace Nullable_warnings_demo
         public string? CalculateSalary(string? Id) => null; //CS8613
 
         public void CalculateSalaryTax(System.Action<string?>? id) => Console.WriteLine("Hello!"); //CS8614
-  
+
         //this only occurs for explicit interface implementations.
         List<string?> IUser.GetTaxRates() => null!; //CS8616
         List<string> IUser.SetGetTaxRates(List<string?> rates) => null!; //CS8617

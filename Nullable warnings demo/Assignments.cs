@@ -7,11 +7,11 @@ namespace Nullable_warnings_demo
     /// <summary>
     /// CS8600 Converting null literal or possible null value to non-nullable type.
     /// CS8601 Possible null reference assignment.
-    /// CS8602 Dereference of a possibly null reference.	
-    /// CS8605 Unboxing a possibly null value.	    
+    /// CS8602 Dereference of a possibly null reference.
+    /// CS8605 Unboxing a possibly null value.
     /// CS8606 Possible null reference assignment to iteration variable
     /// CS8619 Nullability of reference types in value of type 'XXX' doesn't match target type 'YYY'
-    /// CS8625 Cannot convert null literal to non-nullable reference type.	
+    /// CS8625 Cannot convert null literal to non-nullable reference type.
     /// CS8629 Nullable value type may be null.
     /// </summary>
     class Assignments

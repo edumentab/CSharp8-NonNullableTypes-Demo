@@ -15,7 +15,7 @@ namespace Nullable_warnings_demo
         public void Start()
         {
             Func<string?> data = () => "C#!";
-            GetMoreStuffDone(data); //CS8620  
+            GetMoreStuffDone(data); //CS8620
 
             TestingOut(out string[] param1); //CS8624
 
